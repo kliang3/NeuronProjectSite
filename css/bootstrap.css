@@ -1172,7 +1172,10 @@ hr {
 [role="button"] {
   cursor: pointer;
 }
-h1,
+header > h1{ 
+    font-family: sans-serif
+    :
+}
 h2,
 h3,
 h4,
@@ -4496,15 +4499,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #41b8e3;
+  border-color: #285774;
 }
 .navbar-default .navbar-brand {
   color: #777;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #d94a4a;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
